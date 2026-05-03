@@ -1,0 +1,108 @@
+SUSPICIOUS ACTIVITY REPORT (SAR) FILING GUIDELINES
+Financial Crimes Enforcement Network (FinCEN) Compliance Reference
+Version 2024.1
+
+=============================================================
+SECTION 1: OVERVIEW AND LEGAL BASIS
+=============================================================
+
+A Suspicious Activity Report (SAR) is a document that financial institutions, including banks, credit unions, money services businesses, broker-dealers, and casinos, are required to file with the Financial Crimes Enforcement Network (FinCEN) whenever they detect a known or suspected violation of federal law, or a suspicious transaction related to money laundering, fraud, or other financial crimes. The SAR filing requirement is established under the Bank Secrecy Act (BSA), 31 U.S.C. § 5318(g), and its implementing regulations found at 31 C.F.R. § 1020.320 for banks and similar provisions for other covered institutions.
+
+The purpose of the SAR program is to provide law enforcement and regulatory agencies with financial intelligence that can be used to detect, investigate, and prosecute financial crimes including money laundering, terrorist financing, fraud, tax evasion, and other illicit activity. SAR data is maintained in a secure database accessible to authorized federal, state, and local law enforcement agencies.
+
+Financial institutions are protected from civil liability for filing SARs in good faith under the safe harbor provisions of 31 U.S.C. § 5318(g)(3). Institutions and their employees are prohibited from disclosing to any person involved in the reported transaction that a SAR has been filed, a disclosure known as "tipping off," which is a federal violation.
+
+=============================================================
+SECTION 2: FILING THRESHOLDS AND REQUIREMENTS
+=============================================================
+
+2.1 Monetary Thresholds
+
+Banks and other depository institutions must file a SAR when they know, suspect, or have reason to suspect that a transaction or pattern of transactions involves funds derived from illegal activity, is designed to evade reporting or recordkeeping requirements, lacks a lawful purpose, or involves the use of the institution to facilitate criminal activity, AND the transaction involves $5,000 or more in funds or other assets.
+
+For transactions involving insider abuse — that is, where a director, officer, employee, or agent of the institution is involved — a SAR must be filed regardless of the dollar amount. There is no minimum threshold when an institution's own personnel are implicated.
+
+Money services businesses (MSBs) must file a SAR for transactions of $2,000 or more that meet the suspicious criteria listed above. Casinos and card clubs have a threshold of $5,000. Broker-dealers follow the $5,000 threshold consistent with SEC Rule 17a-8.
+
+2.2 Filing Deadlines
+
+Once a financial institution has determined that a transaction warrants a SAR filing, the institution must file the SAR within 30 calendar days of the date the suspicious activity was initially detected. If no suspect has been identified at the time of detection, the institution may delay filing for an additional 30 days — for a maximum of 60 calendar days — while it continues to investigate and attempt to identify the suspect. Under no circumstances may the filing be delayed beyond 60 days from the date of initial detection.
+
+For violations that require immediate attention, such as those involving ongoing criminal activity, terrorist financing, or situations where a crime is imminent, the institution should immediately notify the appropriate law enforcement authority by telephone before or simultaneous with filing the SAR.
+
+2.3 Continuing Activity SARs
+
+When suspicious activity is ongoing, institutions are expected to file continuing activity SARs. If the suspicious activity continues after an initial SAR is filed, a follow-up SAR should be filed no later than 90 days after the filing of the prior SAR. Institutions should note in the narrative that the filing is a continuing activity report and reference the prior SAR's filing date and the assigned BSA identification number.
+
+=============================================================
+SECTION 3: WHAT MUST BE REPORTED
+=============================================================
+
+3.1 Categories of Suspicious Activity
+
+FinCEN has identified the following primary categories of suspicious activity that must be reported via SAR:
+
+(a) Bank Secrecy Act/Structuring/Money Laundering — Transactions designed to evade currency reporting requirements, including structuring (breaking up large transactions into smaller ones to avoid the $10,000 CTR threshold), smurfing (using multiple individuals to conduct structured deposits), and layering of funds through multiple accounts or institutions.
+
+(b) Fraud — Including check fraud, wire fraud, mortgage fraud, elder financial exploitation, identity theft, account takeover, credit card fraud, and Ponzi or pyramid schemes. Any transaction that appears designed to defraud the institution or its customers should be reported.
+
+(c) Terrorist Financing — Any transaction that may be associated with the financing of terrorist organizations, individuals on OFAC's Specially Designated Nationals (SDN) list, or activity consistent with terrorist financing patterns identified in FinCEN advisories.
+
+(d) Casinos/Gambling — Suspicious activity at casinos including chip walking, past posting, and transactions involving known or suspected criminals.
+
+(e) Cyber Events — Any cyberattack, unauthorized electronic intrusion, or cyber-enabled theft that affects or is attempted against the institution's systems and involves $5,000 or more.
+
+(f) Mortgage Fraud — Including appraisal fraud, loan fraud, equity skimming, and property flipping schemes.
+
+(g) Elder Financial Exploitation — Unusual transactions by or on behalf of elderly customers, including sudden large withdrawals, changes in beneficiaries, or transactions influenced by third parties.
+
+3.2 SAR Narrative Requirements
+
+The SAR narrative is the most critical component of the report. It must describe, in clear and concise language, who conducted the suspicious activity, what was done, when it occurred, where it took place, why the activity is considered suspicious, and how the activity was carried out (the "5 W's and How"). The narrative should be written in a manner that allows a law enforcement reader unfamiliar with the case to understand the complete picture.
+
+Narratives must include: full names, addresses, and account numbers of all subjects; the specific transactions involved with dates, amounts, and account numbers; the reason the activity was deemed suspicious; any prior SARs filed on the same subject; and any actions taken by the institution in response, including account closures or referrals to law enforcement.
+
+=============================================================
+SECTION 4: THE SAR FILING PROCESS
+=============================================================
+
+4.1 FinCEN SAR Electronic Filing
+
+All SARs must be filed electronically through the BSA E-Filing System at https://bsaefiling.fincen.treas.gov. Paper SAR filings are no longer accepted. Institutions must register for the BSA E-Filing System and designate authorized filers. The system is available 24 hours a day, 7 days a week.
+
+4.2 SAR Form Fields
+
+The FinCEN SAR (Form 111) requires the following information:
+- Filing institution information: name, address, EIN, primary federal regulator
+- Subject information: name, address, date of birth, SSN/TIN, account numbers, occupation
+- Suspicious activity information: date range, dollar amount, activity type, product/instrument type
+- Law enforcement contact information (if applicable)
+- SAR narrative
+
+4.3 Recordkeeping Requirements
+
+Institutions must retain a copy of each SAR filed and the original or business record equivalent of any supporting documentation for a period of five years from the date of filing. Supporting documentation includes transaction records, account statements, correspondence, and any internal investigation notes that formed the basis for the SAR filing. These records must be made available to FinCEN, the institution's federal functional regulator, and appropriate law enforcement upon request.
+
+=============================================================
+SECTION 5: INTERNAL SAR PROCEDURES AND GOVERNANCE
+=============================================================
+
+5.1 SAR Committee
+
+Best practice requires financial institutions to establish a SAR Review Committee or equivalent body responsible for reviewing potential SAR referrals, making filing decisions, and maintaining documentation of the decision-making process. The committee typically includes representatives from compliance, legal, operations, and senior management. All decisions — including decisions not to file — should be documented with the rationale clearly stated.
+
+5.2 No-File Decisions
+
+A decision not to file a SAR when a referral has been made must be documented in writing with a clear explanation of why the activity did not meet the filing threshold. Regulators routinely review no-file decisions during examinations, and an inadequately documented decision not to file can result in regulatory sanctions.
+
+5.3 SAR Confidentiality
+
+The existence of a SAR, its contents, and any information that would reveal that a SAR has been filed are confidential and may not be disclosed to any person named in the SAR or any other unauthorized party. Institutions must have policies and procedures in place to ensure SAR confidentiality, including restrictions on who can access SAR records within the institution and controls on document handling and storage.
+
+=============================================================
+SECTION 6: PENALTIES FOR NON-COMPLIANCE
+=============================================================
+
+Failure to file a required SAR, filing a materially false SAR, or tipping off a subject can result in significant civil and criminal penalties. Civil money penalties for willful violations of SAR requirements can reach $1,000,000 per violation for financial institutions. Individual officers and employees can face personal civil penalties as well as criminal prosecution. In addition to monetary penalties, regulators may impose cease-and-desist orders, require remediation programs, or refer cases to the Department of Justice for prosecution.
+
+Financial institutions with systemic SAR filing failures risk losing their banking charter, money transmission license, or other regulatory authorizations necessary to operate.
