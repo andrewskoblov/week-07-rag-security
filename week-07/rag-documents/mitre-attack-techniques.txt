@@ -1,0 +1,207 @@
+MITRE ATT&CK Enterprise Techniques
+Source: https://attack.mitre.org/techniques/enterprise/
+ATT&CK v19
+
+Techniques represent 'how' an adversary achieves a tactical goal by performing an action.
+Total Techniques: 222 | Sub-techniques: 475
+
+T1548 - Abuse Elevation Control Mechanism
+Adversaries may circumvent mechanisms designed to control privilege elevation to gain higher-level permissions. Most modern systems contain native elevation control mechanisms that are intended to limit privileges that a user can perform on a machine.
+.001 Setuid and Setgid - An adversary may abuse configurations where an application has the setuid or setgid bits set in order to get code running in a different (and possibly more privileged) user context.
+.002 Bypass User Account Control - Adversaries may bypass UAC mechanisms to elevate process privileges on system.
+.003 Sudo and Sudo Caching - Adversaries may perform sudo caching and/or use the sudoers file to elevate privileges.
+.004 Elevated Execution with Prompt - Adversaries may leverage the AuthorizationExecuteWithPrivileges API to escalate privileges by prompting the user for credentials.
+.005 Temporary Elevated Cloud Access - Adversaries may abuse permission configurations that allow them to gain temporarily elevated access to cloud resources.
+
+T1134 - Access Token Manipulation
+Adversaries may modify access tokens to operate under a different user or system security context to perform actions and bypass access controls. Windows uses access tokens to determine the ownership of a running process.
+.001 Token Impersonation/Theft
+.002 Create Process with Token
+.003 Make and Impersonate Token
+.004 Parent PID Spoofing
+.005 SID-History Injection
+
+T1087 - Account Discovery
+Adversaries may attempt to get a listing of valid accounts, usernames, or email addresses on a system or within a compromised environment.
+.001 Local Account
+.002 Domain Account
+.003 Email Account
+.004 Cloud Account
+
+T1098 - Account Manipulation
+Adversaries may manipulate accounts to maintain and/or elevate access to victim systems.
+.001 Additional Cloud Credentials
+.002 Additional Email Delegate Permissions
+.003 Additional Cloud Roles
+.004 SSH Authorized Keys
+.005 Device Registration
+.006 Additional Container Cluster Roles
+.007 Additional Local or Domain Groups
+
+T1531 - Account Access Removal
+Adversaries may interrupt availability of system and network resources by inhibiting access to accounts utilized by legitimate users.
+
+T1110 - Brute Force
+Adversaries may use brute force techniques to gain access to accounts when passwords are unknown or when password hashes are obtained.
+.001 Password Guessing
+.002 Password Cracking
+.003 Password Spraying
+.004 Credential Stuffing - Adversaries may use credentials obtained from breach dumps of unrelated accounts to gain access to target accounts through credential overlap.
+
+T1059 - Command and Scripting Interpreter
+Adversaries may abuse command and script interpreters to execute commands, scripts, or binaries.
+.001 PowerShell
+.002 AppleScript
+.003 Windows Command Shell
+.004 Unix Shell
+.005 Visual Basic
+.006 Python
+.007 JavaScript
+.008 Network Device CLI
+.009 Cloud API
+
+T1555 - Credentials from Password Stores
+Adversaries may search for common password storage locations to obtain user credentials.
+.001 Keychain
+.002 Securityd Memory
+.003 Credentials from Web Browsers
+.004 Windows Credential Manager
+.005 Password Managers
+.006 Cloud Secrets Management Stores
+
+T1003 - OS Credential Dumping
+Adversaries may attempt to dump credentials to obtain account login and credential material, normally in the form of a hash or a clear text password.
+.001 LSASS Memory
+.002 Security Account Manager
+.003 NTDS
+.004 LSA Secrets
+.005 Cached Domain Credentials
+.006 DCSync
+.007 Proc Filesystem
+.008 /etc/passwd and /etc/shadow
+
+T1566 - Phishing
+Adversaries may send phishing messages to gain access to victim systems. All forms of phishing are electronically delivered social engineering.
+.001 Spearphishing Attachment - Adversaries may send spearphishing emails with a malicious attachment in an attempt to gain access to victim systems.
+.002 Spearphishing Link - Adversaries may send spearphishing emails with a malicious link in an attempt to gain access to victim systems.
+.003 Spearphishing via Service
+.004 Spearphishing Voice
+
+T1078 - Valid Accounts
+Adversaries may obtain and abuse credentials of existing accounts as a means of gaining Initial Access, Persistence, Privilege Escalation, or Defense Evasion.
+.001 Default Accounts
+.002 Domain Accounts
+.003 Local Accounts
+.004 Cloud Accounts
+
+T1190 - Exploit Public-Facing Application
+Adversaries may attempt to exploit a weakness in an Internet-facing host or system to initially access a network.
+
+T1133 - External Remote Services
+Adversaries may leverage external-facing remote services to initially access and/or persist within a network. Remote services such as VPNs, Citrix, and other access mechanisms allow users to connect to internal enterprise network resources.
+
+T1189 - Drive-by Compromise
+Adversaries may gain access to a system through a user visiting a website over the normal course of browsing.
+
+T1557 - Adversary-in-the-Middle
+Adversaries may attempt to position themselves between two or more networked devices to support follow-on behaviors such as Network Sniffing, Transmitted Data Manipulation, or replay attacks.
+.001 Name Resolution Poisoning and SMB Relay
+.002 ARP Cache Poisoning
+.003 DHCP Spoofing
+.004 Evil Twin
+
+T1486 - Data Encrypted for Impact
+Adversaries may encrypt data on target systems or on large numbers of systems in a network to interrupt availability to system and network resources (ransomware).
+
+T1485 - Data Destruction
+Adversaries may destroy data and files on specific systems or in large numbers on a network to interrupt availability to systems, services, and network resources.
+
+T1657 - Financial Theft
+Adversaries may steal monetary resources from targets through extortion, social engineering, technical theft, or other methods. Financial theft is the ultimate objective of several popular campaign types including extortion by ransomware, business email compromise (BEC) and fraud, pig butchering, bank hacking, and exploiting cryptocurrency networks.
+
+T1114 - Email Collection
+Adversaries may target user email to collect sensitive information.
+.001 Local Email Collection
+.002 Remote Email Collection
+.003 Email Forwarding Rule - Adversaries may setup email forwarding rules to collect sensitive information and monitor victim activities.
+
+T1071 - Application Layer Protocol
+Adversaries may communicate using OSI application layer protocols to avoid detection/network filtering by blending in with existing traffic.
+.001 Web Protocols
+.002 File Transfer Protocols
+.003 Mail Protocols
+.004 DNS
+
+T1562 - Impair Defenses (Disable or Modify Tools)
+Adversaries may disable, degrade, or tamper with security tools or applications to impair or reduce visibility of defensive capabilities.
+.001 Disable or Modify Windows Event Log
+.002 Disable or Modify Cloud Log
+
+T1053 - Scheduled Task/Job
+Adversaries may abuse task scheduling functionality to facilitate initial or recurring execution of malicious code.
+.002 At
+.003 Cron
+.005 Scheduled Task
+
+T1021 - Remote Services
+Adversaries may use Valid Accounts to log into a service that accepts remote connections.
+.001 Remote Desktop Protocol
+.002 SMB/Windows Admin Shares
+.004 SSH
+.005 VNC
+.006 Windows Remote Management
+
+T1046 - Network Service Discovery
+Adversaries may attempt to get a listing of services running on remote hosts and local network infrastructure devices.
+
+T1040 - Network Sniffing
+Adversaries may passively sniff network traffic to capture information about an environment, including authentication material passed over the network.
+
+T1027 - Obfuscated Files or Information
+Adversaries may attempt to make an executable or file difficult to discover or analyze by encrypting, encoding, or otherwise obfuscating its contents.
+
+T1583 - Acquire Infrastructure
+Adversaries may buy, lease, rent, or obtain infrastructure that can be used during targeting.
+.001 Domains
+.003 Virtual Private Server
+.005 Botnet
+
+T1595 - Active Scanning
+Adversaries may execute active reconnaissance scans to gather information that can be used during targeting.
+.001 Scanning IP Blocks
+.002 Vulnerability Scanning
+
+T1589 - Gather Victim Identity Information
+Adversaries may gather information about the victim's identity including credentials, email addresses, and employee names.
+
+T1590 - Gather Victim Network Information
+Adversaries may gather information about the victim's networks including IP ranges, domain names, and topology.
+
+T1552 - Unsecured Credentials
+Adversaries may search compromised systems to find and obtain insecurely stored credentials.
+.001 Credentials In Files
+.002 Credentials in Registry
+.003 Shell History
+.004 Private Keys
+
+T1550 - Use Alternate Authentication Material
+Adversaries may use alternate authentication material such as password hashes, Kerberos tickets, and application access tokens to move laterally.
+.002 Pass the Hash
+.003 Pass the Ticket
+.004 Web Session Cookie
+
+T1558 - Steal or Forge Kerberos Tickets
+Adversaries may attempt to subvert Kerberos authentication by stealing or forging Kerberos tickets.
+.001 Golden Ticket
+.002 Silver Ticket
+.003 Kerberoasting
+.004 AS-REP Roasting
+
+T1539 - Steal Web Session Cookie
+An adversary may steal web application or service session cookies and use them to gain access to web applications as an authenticated user without needing credentials.
+
+T1199 - Trusted Relationship
+Adversaries may breach or otherwise leverage organizations who have access to intended victims.
+
+T1195 - Supply Chain Compromise
+Adversaries may manipulate products or product delivery mechanisms prior to receipt by a final consumer for the purpose of data or system compromise.
